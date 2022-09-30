@@ -25,9 +25,23 @@ namespace WpfApp1_Практическая_2_Гуляева_Кристина_402
             InitializeComponent();
         }
 
-       
-        
-          
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 window1 = new Window1();
+            window1.Show();
+            Window2 window2 = new Window2();
+            window2.Show();
+            Window3 window3 = new Window3();
+            window3.Show();
+            Window4 window4 = new Window4();
+            window4.Show();
+            Window5 window5 = new Window5();
+            window5.Show();
+            Window6 window6 = new Window6();
+            window6.Show();
+
+
         }
+    }
     }
 

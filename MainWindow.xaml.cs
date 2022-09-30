@@ -25,10 +25,9 @@ namespace WpfApp1_Практическая_2_Гуляева_Кристина_402
             InitializeComponent();
         }
 
-        private void RadioButton_Checked(object sender, RoutedEventArgs e)
-        {
-            RadioButton pressed = (RadioButton)sender;
-            MessageBox.Show(pressed.Content.ToString());
+       
+        
+          
         }
     }
-}
+

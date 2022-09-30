@@ -39,6 +39,8 @@ namespace WpfApp1_Практическая_2_Гуляева_Кристина_402
             window5.Show();
             Window6 window6 = new Window6();
             window6.Show();
+            Window7 window7 = new Window7();
+            window7.Show();
 
 
         }

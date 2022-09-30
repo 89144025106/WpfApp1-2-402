@@ -22,6 +22,9 @@
             <Button Content="Win7" Click="Button_Click" Canvas.Left="359" Canvas.Top="15" RenderTransformOrigin="5.691,1.784"/>
             <Button Content="Win8" Click="Button_Click" Canvas.Left="421" Canvas.Top="15" RenderTransformOrigin="5.691,1.784"/>
             <Button Content="Win9" Click="Button_Click" Canvas.Left="501" Canvas.Top="20" RenderTransformOrigin="5.691,1.784"/>
+            <Button Content="Win10" Click="Button_Click" Canvas.Left="501" Canvas.Top="20" RenderTransformOrigin="5.691,1.784"/>
+          
+            
 
 
 

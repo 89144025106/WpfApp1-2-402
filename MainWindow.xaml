@@ -8,9 +8,9 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <StackPanel x:Name="stackPanel">
-            <RadioButton GroupName="Boot" x:Name="RadioBoot1" Checked="RadioButton">Загрузится с жёсткого диска</RadioButton>
-            <RadioButton GroupName="Boot" x:Name="RadioBoot2" Checked="RadioButton">Загрузится с DVD привода</RadioButton>
-            <RadioButton GroupName="Boot" x:Name="RadioBoot3" Checked="RadioButton">Установить операционную систему</RadioButton>
+            <RadioButton GroupName="Boot" x:Name="RadioBoot1" Checked="RadioButton_Checked">Загрузится с жёсткого диска</RadioButton>
+            <RadioButton GroupName="Boot" x:Name="RadioBoot2" Checked="RadioButton_Checked">Загрузится с DVD привода</RadioButton>
+            <RadioButton GroupName="Boot" x:Name="RadioBoot3" Checked="RadioButton_Checked">Установить операционную систему</RadioButton>
             <RadioButton GroupName="Languages" Content="C#" IsChecked="True" Checked="RadioButton_Checked"/>
             <RadioButton GroupName="Languages" Content="VB.NET" Checked="RadioButton_Checked"/>
             <RadioButton GroupName="Languages" Content="C++"  Checked="RadioButton_Checked"/>

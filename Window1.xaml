@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfApp1_Практическая_2_Гуляева_Кристина_402.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1_Практическая_2_Гуляева_Кристина_402"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <StackPanel x:Name="stackPanel">
+            <RadioButton GroupName="Boot" x:Name="Radio_Boot1" Checked="RadioButton_Checked">Загрузится с жёсткого диска</RadioButton>
+            <RadioButton GroupName="Boot" x:Name="Radio_Boot2" Checked="RadioButton_Checked">Загрузится с DVD привода</RadioButton>
+            <RadioButton GroupName="Boot" x:Name="Radio_Boot3" Checked="RadioButton_Checked">Установить операционную систему</RadioButton>
+            <RadioButton GroupName="Languages" Content="C#" IsChecked="True" Checked="RadioButton_Checked"/>
+            <RadioButton GroupName="Languages" Content="VB.NET" Checked="RadioButton"/>
+            <RadioButton GroupName="Languages" Content="C++"  Checked="RadioButton"/>
+            <RadioButton GroupName="TechnoLogies" Content="WPF" IsChecked="True" Checked="RadioButton"/>
+            <RadioButton GroupName="TechnoLogies" Content="WinForms" Checked="RadioButton"/>
+            <RadioButton GroupName="TechnoLogies" Content="ASP.NET" Checked="RadioButton"/>
+        </StackPanel>
+    </Grid>
+ 
+</Window>

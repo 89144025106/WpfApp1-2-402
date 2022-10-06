@@ -49,8 +49,8 @@ namespace WpfApp1_Практическая_2_Гуляева_Кристина_402
             window10.Show();
             Window11 window11 = new Window11();
             window11.Show();
-            Window12 window12 = new Window12();
-            window12.Show();
+            Window13 window13 = new Window13();
+            window13.Show();
 
         }
     }
